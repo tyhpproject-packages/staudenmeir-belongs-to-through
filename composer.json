@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/staudenmeir-belongs-to-through",
+    "description": "Tyhp type definitions for staudenmeir/belongs-to-through 2.18.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.18",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/staudenmeir-belongs-to-through-impl": "~2.18.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/staudenmeir-belongs-to-through-impl"
+        }
+    }
+}
